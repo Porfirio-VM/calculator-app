@@ -1,0 +1,92 @@
+.buttons-wrapper {
+  padding: 1rem;
+  gap: 1.3rem .8rem;
+  border-radius: 8px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "seven eight nine   DEL"
+                         "four  five  six    plus"
+                         "one   two   three  minus"
+                         "dot   zero  divide multiply"
+                         "RESET RESET equals equals";
+  }
+  
+  button{
+    padding: .6rem 1.1rem;
+    user-select: none;
+    align-content: center;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+  
+
+
+  button:hover{
+    filter: brightness(120%);
+  }
+
+  button[name="1"] {
+    grid-area: one;
+  }
+  
+  button[name="2"] {
+    grid-area: two;
+  }
+  
+  button[name="3"] {
+    grid-area: three;
+  }
+  
+  button[name="4"] {
+    grid-area: four;
+  }
+  
+  button[name="5"] {
+    grid-area: five;
+  }
+  
+  button[name="6"] {
+    grid-area: six;
+  }
+  
+  button[name="7"] {
+    grid-area: seven;
+  }
+  
+  button[name="8"] {
+    grid-area: eight;
+  }
+  
+  button[name="9"] {
+    grid-area: nine;
+  }
+  
+  button[name="0"] {
+    grid-area: zero;
+  }
+
+  button[name="."] {
+    grid-area: dot;
+  }
+
+  button[name="/"]{
+    grid-area: divide;
+  }
+
+  button[name="x"]{
+    grid-area: multiply;
+  }
+  
+  button[name="="]{
+    grid-area: equals;
+  }
+
+  button[name="RESET"]{
+    grid-area: RESET;
+  }
