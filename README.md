@@ -15,7 +15,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: https://github.com/Porfirio-VM/expenses-chart-component-main/
+- Solution URL: https://github.com/Porfirio-VM/calculator-app
 - Live Site URL: https://expenses-chart-component-main-pjvm.netlify.app/
 
 ## Built with
